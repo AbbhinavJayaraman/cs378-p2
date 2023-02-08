@@ -1,7 +1,39 @@
 body {
-    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 300;
   }
-img {
-    padding-top: 10px;
-    width: 250px
+.logo {
+  width: 100vw;
+  margin-bottom: 30px;
+  }
+.subheading {
+  color: #E77224;
+  margin-bottom: 10px;
+  }
+.subheading-2 {
+  margin-bottom: 30px;
+  font-style: italic;
+  }
+.food-card {
+  text-transform: lowercase;
+  font-family: "Merriweather", serif;
+  margin-bottom: 25px;
+  }
+.food-pic {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+.food-text {
+  margin-bottom: 10px;
+  }
+button {
+  font-family: "Verdana", serif !important;
+  font-size: 15px;
+  background-color: #C2D4F5;
+  border-radius: 50px;
   }
