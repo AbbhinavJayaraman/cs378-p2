@@ -52,13 +52,13 @@
             </div>
              <div class="row">
                <div class="col-9 text-end">
-                 <button id="pizza-plus">+</button>
+                 <button id="pizza-plus" onclick='change_quantity("pizza", 1)'>+</button>
                </div>
                <div class="col-1 text-end">
                  <div id="pizza-quantity">0</div>
                </div>
                <div class="col-1 text-end">
-                 <button id="pizza-minus">- </button>
+                 <button id="pizza-minus" onclick='change_quantity("pizza", -1)'>- </button>
                </div>
              </div>
           </div>
@@ -81,13 +81,13 @@
              </div>
              <div class="row">
                <div class="col-9 text-end">
-                 <button id="proats-plus">+</button>
+                 <button id="proats-plus" onclick='change_quantity("proats", 1)'>+</button>
                </div>
                <div class="col-1 text-end">
                  <div id="proats-quantity">0</div>
                </div>
                <div class="col-1 text-end">
-                 <button id="proats-minus">- </button>
+                 <button id="proats-minus" onclick='change_quantity("proats", -1)'>- </button>
                </div>
              </div>
            </div>
@@ -110,13 +110,13 @@
              </div>
              <div class="row">
                <div class="col-9 text-end">
-                 <button id="pbj-plus">+</button>
+                 <button id="pbj-plus" onclick='change_quantity("pbj", 1)'>+</button>
                </div>
                <div class="col-1 text-end">
                  <div id="pbj-quantity">0</div>
                </div>
                <div class="col-1 text-end">
-                 <button id="pbj-minus">- </button>
+                 <button id="pbj-minus" onclick='change_quantity("pbj", -1)'>- </button>
                </div>
              </div>
            </div>
@@ -139,13 +139,13 @@
              </div>
              <div class="row">
                <div class="col-9 text-end">
-                 <button id="tikka-plus">+</button>
+                 <button id="tikka-plus" onclick='change_quantity("tikka", 1)'>+</button>
                </div>
                <div class="col-1 text-end">
                  <div id="tikka-quantity">0</div>
                </div>
                <div class="col-1 text-end">
-                 <button id="tikka-minus">- </button>
+                 <button id="tikka-minus" onclick='change_quantity("tikka", -1)'>- </button>
                </div>
              </div>
            </div>
@@ -161,8 +161,8 @@
           </div>
           <div class="col-4 text-end">
             <div class="text-end">
-              <button id="order">Order</button>
-              <button id="clear">Clear All</button>
+              <button id="order" onclick='order()'>Order</button>
+              <button id="clear" onclick='clear()'>Clear All</button>
             </div>
           </div>
         </div>
